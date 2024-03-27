@@ -1,0 +1,112 @@
+/* ==========================================================Responsive Web Designs=============================================================== */
+@media (max-width:1200px) {
+   .banner_wrapper .profile-picture {
+      width: 385px;
+      height: 429px;
+      margin-left: 67px;
+  }
+}
+
+@media (max-width:991px) {
+    /* custom Css */
+    section{
+       padding: 30px 0;
+ 
+    }
+    h2{
+       font-size: 30px;
+       line-height: 40px;
+ 
+    }
+    h3{
+       font-size: 20px;
+ 
+    }
+    /* banner */
+    .banner_wrapper .profile-picture {
+       margin: auto;
+   }
+    /* navbar */
+    .header-scrolled{
+       height: auto;
+    }
+ 
+    .header_wrapper .menu-navbar-nav {
+       text-align: center;
+       background-color: var(--bg-dark-blue);
+       padding-bottom: 15px;
+   }
+ 
+  
+ 
+   /* Portfolio */
+   .portfolio_wrapper .card{
+    height: 498px ;
+   }
+   
+   .card .pro-img{
+   height: 498px !important;
+ 
+   }
+   .con-text {
+    font-size: 81px;
+    
+    line-height: 75px;
+    
+   }
+   
+   .portfolio_wrapper .card span {
+    height: 500px !important;
+   }
+  }
+ 
+ 
+ @media (max-width: 767px){
+    /* custom css */
+    h1{
+       font-size: 40px;
+       line-height: 48px;
+    }
+    h2{
+       font-size: 25px;
+ 
+    }
+    p{
+       font-size: 13px;
+       line-height: 24px;
+    }
+ 
+    .banner_wrapper .profile-picture {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+       /* Portfolio */
+   .portfolio_wrapper .card{
+    min-height: 500px ;
+   }
+   .con-text {
+   text-align: center;
+    
+   }
+   .media{
+    padding-left: 0;
+    padding-top: 30px;
+    text-align:center;
+   }
+ }
+ 
+ @media (max-width: 480px){
+   /* custom css */
+   .banner_wrapper .profile-picture {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .rounded-3{
+   height: 200px; 
+  }
+
+
+
+}
